@@ -1,0 +1,237 @@
+body {
+ background: #e5e5e5;
+}
+
+.frame1 {
+ position:relative;
+ background: white;
+ width:1024px;
+ height:768px;
+ margin: auto;
+}
+
+.frame2 {
+ position: absolute;
+ width: 350px;
+ height: 667px;
+ left: 0px;
+ top: 0px;
+}
+
+.frame3 {
+ position: absolute;
+ width: 350px;
+ height: 658px;
+ left: 674px;
+ top: 110px;
+
+ background: #252525;
+ border-radius: 0px;
+}
+
+/* Navigate */
+.title-menu {
+position: absolute;
+width: 37px;
+height: 19px;
+left: 702px;
+top: 62px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+
+cursor:default;
+}
+
+.nav-text-prev {
+ position: absolute;
+ width: 26px;
+ height: 12px;
+ left: 917px;
+ top: 67px;
+
+ font-family: Trykker;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 12px;
+ line-height: 15px;
+
+ color: #000000;
+
+ cursor:default;
+}
+
+.nav-text-separator {
+ position: absolute;
+ width: 3px;
+ height: 16px;
+ left: 955px;
+ top: 65px;
+    
+ font-family: Trykker;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 12px;
+ line-height: 15px;
+    
+ color: #000000;
+ 
+ cursor:default;
+}
+
+.nav-text-next {
+ position: absolute;
+ width: 30px;
+ height: 12px;
+ left: 970px;
+ top: 67px;
+ 
+ font-family: Trykker;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 12px;
+ line-height: 15px;
+  
+ color: #000000;
+
+ cursor:default;
+}
+
+/* Box red */
+.box-red-1 {
+    position: absolute;
+    width: 350px;
+    height: 9px;
+    left: 674px;
+    top: 110px;
+       
+    background: #0b558d;
+    border-radius: 0px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+   
+.box-red-2 {
+    position: absolute;
+    width: 350px;
+    height: 101px;
+    left: 0px;
+    top: 667px;
+   
+    background: #0b558d;
+    border-radius: 0px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.profile-image {
+ position: absolute;
+ width: 324px;
+ height: 768px;
+ left: 350px;
+ top: 0px;
+
+ background: url("C:/Users/Asus/Documents/webdevelopment/figma/cvo/arifin-muhammad2.jpeg")
+}
+
+.logo {
+ position: absolute;
+ width: 65px;
+ height: 65px;
+ left: 37px;
+ top: 27px;
+}
+
+.line-name-role {
+ position: absolute;
+ width: 212.02px;
+ height: 0px;
+ left: 37px;
+ top: 350px;
+
+ background: #000000;
+ border: 1px solid #000000;
+}
+
+.nama {
+ position: absolute;
+ width: 285px;
+ height: 234px;
+ left: 37px;
+ top: 190px;
+
+ font-family: Trykker;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 48px;
+ line-height: 80px;
+
+ color: #000000;
+}
+
+.role {
+ position: absolute;
+ width: 285px;
+ height: 129px;
+ left: 37px;
+ top: 365px;
+
+ font-family: Trykker;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 36px;
+ line-height: 36px;
+
+ color: #000000;
+}
+
+.short-bio {
+ position: absolute;
+ width: 285px;
+ height: 126px;
+ left: 37px;
+ top: 450px;
+
+ font-family: Trykker;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 17px;
+
+ color: #3B3B3B;
+}
+
+.label {
+ position: absolute;
+ width: 175px;
+ height: 15px;
+
+ font-family: Trykker;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 12px;
+ line-height: 15px;
+
+ color:white;
+
+ /* identical to box height */
+ text-align: center;
+}
+
+.text-value {
+ position: absolute;
+ width: 175px;
+ height: 16px;
+
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 13px;
+ line-height: 16px;
+ text-align: center;
+
+ color:white;
+}

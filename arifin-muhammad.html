@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Resume | Arifin Muhammad</title>
+  <!-- Deklarasi cvo-style.css -->
+  <link rel="stylesheet" href="file:///C:/Users/Asus/Documents/webdevelopment/figma/cvo/cvo-style.css">
+  <!--Deklarasi font dari google-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trykker">
+ </head>
+
+ <body oncopy="return false" onpaste="return false" oncut="return false">
+  <div class="frame1">
+   <a id="title" class="title-menu">Bio</a>
+   <a onclick="prev()" class="nav-text-prev">Prev</a>
+   <a class="nav-text-separator">|</a>
+   <a onclick="next()" class="nav-text-next">Next</a>
+
+   <div class="box-red-2"></div>
+
+   <div class="frame2">
+    <img class="logo" src="C:/Users/Asus/Documents/webdevelopment/figma/cvo/logo_cv.png"/>
+    <a class="nama">Arifin Muhammad</a>
+    <div class="line-name-role"></div>
+    <a class="role">Production Team Lead</a>
+    <a class="short-bio">My name is Muhammad Zainul Arifin, you can call me Arifin, I was born on 1st February 1996 in Pringsewu . I’m the first child of 1 sibling. 
+        I’m young engineer majoring in electrical engineering specializing in network and telecommunication. Now I've been work as Production Team Lead 
+        with the job specializing injection moulding. Strong engineering professional with a good analytical who can move in various fields..
+    </a>
+   </div>
+
+   <div class="frame3">
+
+    <a id="label-left-1" class="label" style="left: 0px; top: 41px;">Born Place</a>
+    <a id="value-left-1" class="text-value" style="left: 0px; top: 67px;">Lampung</a>
+
+    <a id="label-right-1" class="label" style="left: 175px; top: 41px;">Born Date</a>
+    <a id="value-right-1" class="text-value" style="left: 175px; top: 67px;">Call</a>
+
+    <a id="label-left-2" class="label" style="left: 0px; top: 265px;">Domicile</a>
+    <a id="value-left-2" class="text-value" style="left: 0px; top: 291px;">Greater Jabodetabek Area</a>
+
+    <a id="label-right-2" class="label" style="left: 175px; top: 265px;">Motto</a>
+    <a id="value-right-2" class="text-value" style="left: 175px; top: 291px;">I live work,<br/>work to love.</a>
+
+    <a id="label-left-3" class="label" style="left: 0px; top: 491px;">For more inquiry</a>
+    <a id="value-left-3" class="text-value" style="left: 0px; top: 517px;">muhammadarifin80@gmail.com</a>
+
+    <a id="label-right-3" class="label" style="left: 175px; top: 491px;">Phone</a>
+    <a id="value-right-3" class="text-value" style="left: 175px; top: 517px;">+62-852-68796954</a>
+
+    </div>
+
+    <div class="box-red-1"></div>
+
+    <div class="profile-image"></div>
+
+  </div>
+
+ </body>
+</html>
+
+<script type="text/javascript">
+function prev() {
+ document.getElementById("title").innerHTML = "Bio";
+ document.getElementById("label-left-1").innerHTML = "Born Place";
+ document.getElementById("value-left-1").innerHTML = "Lampung";
+ document.getElementById("label-right-1").innerHTML = "Born Date";
+ document.getElementById("value-right-1").innerHTML = "Call";
+ document.getElementById("label-left-2").innerHTML = "Domicile";
+ document.getElementById("value-left-2").innerHTML = "Greater Jabodetabek Area";
+ document.getElementById("label-right-2").innerHTML = "Motto";
+ document.getElementById("value-right-2").innerHTML = "I live work,<br/>work to love.";
+ document.getElementById("label-left-3").innerHTML = "For more inquiry";
+ document.getElementById("value-left-3").innerHTML = "muhammadarifin80@gmail.com";
+ document.getElementById("label-right-3").innerHTML = "Phone";
+ document.getElementById("value-right-3").innerHTML = "+62-852-68796954";
+}
+
+function next() {
+ document.getElementById("title").innerHTML = "Timeline";
+ document.getElementById("label-left-1").innerHTML = "Educational Background";
+ document.getElementById("value-left-1").innerHTML = "Bachelor Degree, Electrical Engineering";
+ document.getElementById("label-right-1").innerHTML = "Educational Institution";
+ document.getElementById("value-right-1").innerHTML = "Universitas Sultan Ageng Tirtayasa";
+ document.getElementById("label-left-2").innerHTML = "Job Role";
+ document.getElementById("value-left-2").innerHTML = "Production Team Lead";
+ document.getElementById("label-right-2").innerHTML = "Job Status";
+ document.getElementById("value-right-2").innerHTML = "Working on Mandis Plastic Technologies Corporation";
+ document.getElementById("label-left-3").innerHTML = "Skill";
+ document.getElementById("value-left-3").innerHTML = "Injection Moulding,<br/>Product Quality,<br/>Management Inventory,<br/>Production Planner.";
+ document.getElementById("label-right-3").innerHTML = "Interest";
+ document.getElementById("value-right-3").innerHTML = "Product Planning,<br/>Product Specialist,<br/>Suplain Chain,<br/>Production Assistant.";
+}
+</script>
