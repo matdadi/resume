@@ -272,7 +272,7 @@ cursor:default;
     top: 539px;
    }
 
-@media (max-width: 255px) {
+@media (max-width: 400px) {
     .frame1 {
       width: 400px;
     }
