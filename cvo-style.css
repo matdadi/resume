@@ -239,3 +239,119 @@ cursor:default;
 
  color:white;
 }
+
+.left {
+    left: 17px;
+   }
+
+   .right {
+    left: 217px;
+   }
+
+   .row-1 {
+    top: 85px;
+   }
+
+   .row-2 {
+    top: 111px;
+   }
+
+   .row-3 {
+    top: 318px;
+   }
+
+   .row-4 {
+    top: 344px;
+   }
+
+   .row-5 {
+    top: 513px;
+   }
+
+   .row-6 {
+    top: 539px;
+   }
+
+@media (max-width: 576px) {
+    .frame1 {
+      width: 400px;
+    }
+
+    .frame2 {
+        height: 685px;
+        margin: auto;
+    }
+
+    .frame3 {
+        width: 400px;
+        left: 0px;
+        top: 1370px;
+        margin: auto;
+    }
+ 
+    .title-menu {
+        left: 17px;
+        top: 1391px;
+
+        color: #FFFFFF;
+    }
+
+    .nav-text-prev {
+        height: 12px;
+        left: 298px;
+        top: 1396px;
+       
+        color: #FFFFFF;
+       }
+
+    .nav-text-separator {
+        height: 16px;
+        left: 336px;
+        top: 1394px;
+           
+        color: #FFFFFF;
+    }
+       
+    .nav-text-next {
+        height: 12px;
+        left: 351px;
+        top: 1396px;
+         
+        color: #FFFFFF;
+    }
+ 
+    .box-red-1 {
+        display: none;
+    }
+
+    .box-red-2 {
+        height: 86px;
+        top: 599px;
+    }
+
+    .profile-image {
+        width: 400px;
+        height: 685px;
+        left: 0px;
+        top: 685px;
+        background-size: cover;
+    }
+ 
+    .line-name-role {
+        top: 332px;
+    }
+
+    .nama {
+        top: 165px;
+        height: 162px;
+    }
+
+    .role {
+        top: 343px;
+    }
+
+    .short-bio {
+        height: 90px;
+        top: 447px;
+    }
+}
