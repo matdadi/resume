@@ -241,11 +241,11 @@ cursor:default;
 }
 
 .left {
-    left: 17px;
+    left: 0px;
    }
 
    .right {
-    left: 217px;
+    left: 175px;
    }
 
    .row-1 {
@@ -353,5 +353,13 @@ cursor:default;
     .short-bio {
         height: 90px;
         top: 447px;
+    }
+ 
+    .left {
+        left: 17px;
+    }
+ 
+    .right {
+        left: 217px;
     }
 }
